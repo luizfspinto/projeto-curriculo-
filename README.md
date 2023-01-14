@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto Currículo</h1>
+<h1 align="center">Projeto Currículo</h1>
 
 <p align="center">
 Projeto desenvolvido baseado no template de CV da W3.Schools.<br/>
@@ -17,7 +17,7 @@ Projeto desenvolvido baseado no template de CV da W3.Schools.<br/>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+- HTML, CSS e framework W3.CSS
 - Git e Github
 
 ## 💻 Projeto
