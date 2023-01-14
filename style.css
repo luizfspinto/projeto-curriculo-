@@ -1,0 +1,35 @@
+body {
+  background: #ece8e8;
+}
+
+/*Container content*/
+.w3-content,
+.w3-margin-top {
+  max-width: 1366px;
+}
+/*left column*/
+img {
+  height: 300px;
+  width: 100%;
+}
+
+/*name*/
+.name {
+  color: rgb(255, 255, 255);
+}
+
+/*Container information*/
+.bg-information {
+  background-color: rgb(255, 255, 255);
+}
+
+/*links*/
+a {
+  text-decoration: none;
+}
+
+/*icones midias*/
+.size {
+  font-size: 20px;
+  padding: 0px 4px;
+}
