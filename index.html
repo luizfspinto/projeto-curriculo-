@@ -1,287 +1,127 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+  <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Projeto Curriculo</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="description" content="Currículo personalizado feito em HTML5 e CSS3, com propósito de ser um cartão de visita."> 
+    <title>Meu Currículo</title>
   </head>
   <body>
-    <!--Beginning of the container content-->
-    <div class="w3-content w3-margin-top">
-      <!--Beginning of the Grid-->
-      <div class="w3-row-padding">
-        <!--Beginning of the left column-->
-        <div class="w3-third">
-          <div class="w3-white w3-text-gray w3-card-4">
-            <div class="w3-display-container">
-              <img
-                src="./assets/foto-perfil.png"
-                alt="Luiz Felipe sorrindo, com camiseta cinza e escritos em amarelo"
-              />
-              <div class="w3-display-bottomleft w3-container">
-                <h2 class="name">Luiz Felipe</h2>
-              </div>
+    <main>
+      <div class="col-1">
+        <div class="image">
+          <img src="assets/profile-picture.png" alt="Imagem de um homem sorrindo, vestindo um camiseta cinza e com letras em amarelo">
+        </div>
+        <div class="contacts">
+          <div>
+            <h2>Contato</h2>
+            <div class="icons">
+              <img class="ico" src="./assets/maps.svg" alt="icone de mapa"/>
+              <p>Rua Helio Barbarotti 1320, São José do Rio Preto - SP</p>
             </div>
-          </div>
-          <div class="w3-container bg-information w3-margin-bottom">
-            <p>
-              <i
-                class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
-              ></i
-              >Desenvolvedoer Web
-            </p>
-            <p>
-              <i
-                class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
-              ></i
-              >São José do Rio Preto - SP, Brazil
-            </p>
-            <p>
-              <i
-                class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
-              ></i
-              >luizdev22@outlook.com
-            </p>
-            <p>
-              <i
-                class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"
-              ></i
-              >(17) 99665-0669
-            </p>
-            <hr />
-            <!--Soft Skills-->
-            <p class="w3-large">
-              <b
-                ><i
-                  class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"
-                ></i
-                >Soft Skills</b
-              >
-            </p>
-            <p>Comunicação</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div
-                class="w3-container w3-center w3-round-xlarge w3-teal"
-                style="width: 90%"
-              >
-                90%
-              </div>
+            <div class="icons">
+              <img class="ico" src="./assets/phone.svg" alt="icone de telefone"/>
+              <p>(17) 99665-0669</p>
             </div>
-            <p>Proatividade</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div
-                class="w3-container w3-center w3-round-xlarge w3-teal"
-                style="width: 90%"
-              >
-                <div class="w3-center w3-text-white">90%</div>
-              </div>
+            <div class="icons">
+              <img class="ico" src="./assets/email.svg" alt="icone de e-mail"/>
+              <p>luizfspintoo@gmail.com</p>
             </div>
-            <p>Trabalho em equipe</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div
-                class="w3-container w3-center w3-round-xlarge w3-teal"
-                style="width: 100%"
-              >
-                100%
-              </div>
-            </div>
-            <br />
-            <!--Hard Skills-->
-            <p class="w3-large w3-text-theme">
-              <b
-                ><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i
-                >Hard Skills</b
-              >
-            </p>
-            <p>WordPress</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div
-                class="w3-round-xlarge w3-teal"
-                style="height: 18px; width: 80%"
-              ></div>
-            </div>
-            <p>HTML5</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div
-                class="w3-round-xlarge w3-teal"
-                style="height: 18px; width: 80%"
-              ></div>
-            </div>
-            <p>CSS3</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div
-                class="w3-round-xlarge w3-teal"
-                style="height: 18px; width: 70%"
-              ></div>
-            </div>
-            <p>JavaScript</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div
-                class="w3-round-xlarge w3-teal"
-                style="height: 18px; width: 40%"
-              ></div>
-            </div>
-            <p>C#</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div
-                class="w3-round-xlarge w3-teal"
-                style="height: 18px; width: 40%"
-              ></div>
-            </div>
-            <br />
           </div>
         </div>
-        <!--Beginning of the right column-->
-        <div class="w3-twothird">
-          <!--Work-->
-          <div class="w3-container w3-card bg-information w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Experiência de trabalho
-            </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <strong
-                  >Desenvolvedor Web /
-                  <a href="https://foxbiz.com.br" target="_blank"
-                    >Foxbiz</a
-                  ></strong
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Julho 2022 -
-                <span class="w3-tag w3-teal w3-round">Atual</span>
-              </h6>
-              <p>
-                Desenvolvimento de web sites, sites institucionais, one page,
-                landing page.
-              </p>
-            </div>
-            <hr />
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <strong
-                  >Estagiário /<a href="https://mv6group.com.br"
-                    >MV6 Group</a
-                  ></strong
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Março 2022 -
-                Julho 2022
-              </h6>
-              <p>Suportes a sites, criação de pequenas páginas web.</p>
-            </div>
-            <hr />
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <strong
-                  >Porteiro /
-                  <a
-                    href="https://paulofhsouza7.wixsite.com/grupo-alarme-com"
-                    target="_blank"
-                    >Grupo Alarme.com Service e Segurança Eletronica</a
-                  ></strong
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Maio 2015 -
-                Dezembro 2021
-              </h6>
-              <p>
-                Controle de acesso a moradores e visitantes de condomínios,
-                atendimento ao público, controle de recebimento e entregas de
-                encomendas, monitoramento por câmeras.
-              </p>
-            </div>
+        <div class="soft-skills">
+          <h2>Soft Skills</h2>
+          <div class="hab">
+            <p>Comunicação</p>
+            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em WordPress"/>
           </div>
-          <!--Education-->
-          <div class="w3-container w3-card bg-information w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i>
-              Formação
-            </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <strong
-                  >Analise e Desenvolvimento de Sistemas /
-                  <a href="https://unifatecie.edu.br/" target="_blank"
-                    >Centro Universitário Unifatecie</a
-                  ></strong
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Fevereiro
-                2022 - Fevereiro 2024
-                <span class="w3-tag w3-teal w3-round">Cursando</span>
-              </h6>
-              <p>
-                Criar, analisar, projetar e implementar sistemas computacionais
-                de informação
-              </p>
-            </div>
-            <hr />
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <strong
-                  >Assistente de Desenvolvimento de Aplicativos Computacionais /
-                  Senac</strong
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Agosto 2022
-                - Agosto 2023
-                <span class="w3-tag w3-teal w3-round">Cursando</span>
-              </h6>
-              <p>
-                Executar os processos de codificação, manutenção e documentação
-                de aplicativos computacionais para desktop, organizar elementos
-                estruturais de sites e executar os processos de codificação,
-                manutenção e documentação de aplicativos computacionais para
-                internet.
-              </p>
-            </div>
-            <hr />
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <strong
-                  >JavaScript Essentials /
-                  <a href="https://www.netacad.com/pt-br" target="_blank"
-                    >Cisco</a
-                  ></strong
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Dezembro
-                2022 - Abril 2022
-                <span class="w3-tag w3-teal w3-round">Cursando</span>
-              </h6>
-              <p>Introdução a JavaScript</p>
-            </div>
+          <div class="hab">
+            <p>Trabalho em equipe</p>
+            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em HTML5"/>
+          </div>
+          <div class="hab">
+            <p>Proatividade</p>
+            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em CSS3"/>
+          </div>
+        </div>
+        <div class="hard-skills">
+          <h2>Hard skills</h2>
+          <div class="hab">
+            <p>WordPress</p>
+            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em WordPress"/>
+          </div>
+          <div class="hab">
+            <p>HTML5</p>
+            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em HTML5"/>
+          </div>
+          <div class="hab">
+            <p>CSS3</p>
+            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em CSS3"/>
+          </div>
+          <div class="hab">
+            <p>JavaScript</p>
+            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em JavaScript"/>
+          </div>
+          <div class="hab">
+            <p>C#</p>
+            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em C#"/>
           </div>
         </div>
       </div>
-    </div>
+      <div class="col-2">
+        <section class="name">
+          <h1>Luiz Felipe da Silva Pinto</h1>
+          <h3>Desenvolvedor Web</h3>
+        </section>
+        <section class="experience">
+          <div class="topic">
+            <h2>Experiência</h2>
+            <img class="icon-profissional" src="./assets/image-pasta.svg" width="35px" alt="Imagem de uma pasta cor preto"/>
+          </div>
+          <h3>Desenvolvedor Web na <a href="https://www.foxbiz.com.br" target="_blank" title="Foxbiz | Marketing Digital">Foxbiz</a></h3><span class="atual">Atual - Agosto</span>
+          <p>
+            Desenvolvimento de web sites, sites institucionais, one page e landing page. Trabalhando com as tecnologias WordPress, Elementor, MetForm, ChatJoin, Simple Custom CSS and JS, Really Simple SSL, Pods Campos e Formatos de Conteúdo, Customizados, WP Mail SMTP by WPForms, The Most Popular SMTP and Registro de e-mails Plugin, Prime Slider entre outros.
+          </p>
+          <br>
+          <h3>Estagário <a href="https://www.mv6group.com.br" target="_blank" title="MV6 Group | Marketing Digital">MV6 Group</a></h3><span class="atual">Março - Julho 2022</span>
+          <p>
+            Suportes a sites, criação de pequenas páginas web. Atuando com as tecnologias e plugins, WordPress, Elementor, MetForm, ChatJoin, Simple Custom CSS and JS e Really Simple SSL.
+          </p>
+          <br>
 
-    <!--Footer-->
-    <div class="w3-container w3-teal w3-center w3-margin-top">
-      <p>Minhas redes sociais e contato</p>
-      <i class=" size fa fa-facebook-official w3-hover-opacity"></i>
-      <i class=" size fa fa-instagram w3-hover-opacity"></i>
-      <i class=" size fa fa-github w3-hover-opacity"></i>
-      <i class=" size fa fa-linkedin w3-hover-opacity"></i>
-      <p>Desenvolvido por @Luiz Felipe</p>
-    </div>
+          <h3>Porteiro <a href="https://paulofhsouza7.wixsite.com/grupo-alarme-com" target="_blank" title="Alarme.com | Segurança Eletrônica">Grupo Alarme.com</a></h3><span class="atual">Maio 2015 - Dezembro 2021</span>
+          <p>
+            Controle de acesso a moradores e visitantes de condomínios, atendimento ao público, controle de recebimento e entregas de encomendas, monitoramento por câmeras.
+          </p>
+          <br>
+          <hr>
+        </section>
+        <section class="formation">
+          <div class="topic">
+            <h2>Formação</h2>
+            <img class="icon-profissional" src="./assets/image-capelo.svg" width="35px" alt="Imagem de uma capelo de cor preto"/>
+          </div>
+          <h3>Assist. Desenvolvimento de Aplicativos - <a href="https://www.sp.senac.br/senac-sao-jose-do-rio-preto" target="_blank" title="Senac São Paulo - Cursos Livres, Ensino Médio e Técnicos">Senac</a></h3><span class="atual">Atual - Agosto 2023</span>
+          <p>
+            Executar os processos de codificação, manutenção e documentação de aplicativos computacionais para desktop, organizar elementos estruturais de sites e executar os processos de codificação, manutenção e documentação de aplicativos computacionais para internet.
+          </p>
+          <br>
+
+          <h3>Técnico em Edificações - <a href="https://eteourinhos.com.br/" target="_blank" title="Escola Técnica | Jacinto Ferreira de Sá">Etec</a></h3><span class="atual">Julho 2019 - Dezembro 2020</span>
+          <p>
+            Desenvolver e executar projetos de edificações conforme normas técnicas de segurança, de acordo com legislação específica, conforme limites regulamentares e normativos ambientais. Planejar a execução, elaborar orçamento e memorial descritivo de obras.
+          </p>
+          <br>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a id="footer" href="https://www.linkedin.com/in/luizfspinto/" target="_blank">
+        <p>Desenvolvido por @Luiz Felipe</p>
+      </a>
+    </footer>
   </body>
 </html>
