@@ -9,7 +9,7 @@ Meu currículo foi desenvolvido a partir dos conceitos básicos de Desenvolvimen
 </p>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./.github/preview-project.png" width="100%">
+  <img alt="Currículo" src="./.github/preview-project.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
