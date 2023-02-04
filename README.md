@@ -22,4 +22,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Projeto Currículo v2.0 é um agregador de cv para usar como cartão de visitas, com objetivo de mostrar para empresas e usúarios do Github.
+Meu currículo é um cartão de visitas, para empresas e usuários do Github.
