@@ -1,7 +1,7 @@
-<h1 align="center">Projeto Currículo v2.0</h1>
+<h1 align="center">Currículo</h1>
 
 <p align="center">
-Projeto desenvolvido a partir dos conceitos básicos de Desenvolvimento Web.<br/>
+Meu currículo foi desenvolvido a partir dos conceitos básicos de Desenvolvimento Web.<br/>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
