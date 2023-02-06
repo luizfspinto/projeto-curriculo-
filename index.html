@@ -13,22 +13,26 @@
     <main>
       <div class="col-1">
         <div class="image">
-          <img src="assets/profile-picture.png" alt="Imagem de um homem sorrindo, vestindo um camiseta cinza e com letras em amarelo">
+          <img src="assets/profile.webp" alt="Imagem de um homem sorrindo, vestindo um camiseta cinza e com letras em amarelo">
         </div>
         <div class="contacts">
           <div>
             <h2>Contato</h2>
             <div class="icons">
               <img class="ico" src="./assets/maps.svg" alt="icone de mapa"/>
-              <p>Rua Helio Barbarotti 1320, São José do Rio Preto - SP</p>
+              <p>Rua Helio Barbarotti 1320,<br> São José do Rio Preto - SP</p>
             </div>
             <div class="icons">
-              <img class="ico" src="./assets/phone.svg" alt="icone de telefone"/>
-              <p>(17) 99665-0669</p>
+              <a class="link" href="https://wa.me/5517996650669" target="_blank" title="WhatsApp">
+                <img class="ico" src="./assets/image-whatsapp.svg" alt="icone de telefone"/>
+                <p>(17) 99665-0669</p>
+              </a>
             </div>
             <div class="icons">
-              <img class="ico" src="./assets/email.svg" alt="icone de e-mail"/>
-              <p>luizfspintoo@gmail.com</p>
+              <a class="link" href="mailto:luizfspintoo@gmail.com" title="E-mail">
+                <img class="ico" src="./assets/email.svg" alt="icone de e-mail"/>
+                <p>luizfspintoo@gmail.com</p>
+              </a>
             </div>
           </div>
         </div>
@@ -36,38 +40,86 @@
           <h2>Soft Skills</h2>
           <div class="hab">
             <p>Comunicação</p>
-            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em WordPress"/>
+            <div class="percentage">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle circle-opacities"></div>
+            </div>
           </div>
           <div class="hab">
             <p>Trabalho em equipe</p>
-            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em HTML5"/>
+            <div class="percentage">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-opacities"></div>
+          </div>
           </div>
           <div class="hab">
             <p>Proatividade</p>
-            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em CSS3"/>
+            <div class="percentage">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-opacities"></div>
+          </div>
           </div>
         </div>
         <div class="hard-skills">
           <h2>Hard skills</h2>
           <div class="hab">
             <p>WordPress</p>
-            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em WordPress"/>
+            <div class="percentage">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-opacities"></div>
+              <div class="circle circle-opacities"></div>
+          </div>
           </div>
           <div class="hab">
             <p>HTML5</p>
-            <img class="por" src="./assets/porcentagem-3.svg" alt="Imagem que mostra porcentagem de habilidade em HTML5"/>
+            <div class="percentage">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-opacities"></div>
+              <div class="circle circle-opacities"></div>
+          </div>
           </div>
           <div class="hab">
             <p>CSS3</p>
-            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em CSS3"/>
+            <div class="percentage">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-opacities"></div>
+              <div class="circle circle-opacities"></div>
+          </div>
           </div>
           <div class="hab">
             <p>JavaScript</p>
-            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em JavaScript"/>
+            <div class="percentage">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-opacities"></div>
+              <div class="circle circle-opacities"></div>
+              <div class="circle circle-opacities"></div>
+          </div>
           </div>
           <div class="hab">
             <p>C#</p>
-            <img class="por" src="./assets/porcentagem-2.svg" alt="Imagem que mostra porcentagem de habilidade em C#"/>
+            <div class="percentage">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-opacities"></div>
+              <div class="circle circle-opacities"></div>
+              <div class="circle circle-opacities"></div>
+          </div>
           </div>
         </div>
       </div>
@@ -119,8 +171,8 @@
       </div>
     </main>
     <footer>
-      <a id="footer" href="https://www.linkedin.com/in/luizfspinto/" target="_blank">
-        <p>Desenvolvido por @Luiz Felipe</p>
+      <a title="LinkedIn" id="footer" href="https://www.linkedin.com/in/luizfspinto/" target="_blank">
+        <p class="footer">Desenvolvido por @Luiz Felipe</p>
       </a>
     </footer>
   </body>
