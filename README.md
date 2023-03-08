@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML, CSS
 - Git e Github
-- Hospedagem Web Hostinger
+- Hospedagem Vercel
 
 ## 💻 Projeto
 
