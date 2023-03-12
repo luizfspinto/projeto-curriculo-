@@ -15,8 +15,8 @@ https://curriculo.lzfelipe.dev/
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ## 💻 Projeto
 
