@@ -1,0 +1,280 @@
+/*Resetando configuração browser*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --branco:#FFFFFF;
+  --azul: #106C84;
+}
+
+/*Fontes do google*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;700&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/*Container Principal*/
+main {
+  display: flex;
+}
+
+/*Fonts*/
+h1 {
+  font-size: clamp(2rem, 1.5rem + 3.0vw, 4rem);
+  font-weight: 700;
+  color: var(--azul);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+p {
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+ .atual {
+  display: inline;
+  margin-left: 10px;
+  background-color: var(--azul);
+  padding: 5px 20px;
+  border-radius: 15px;
+  color: var(--branco);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/*Imagem de perfil*/
+.image > img {
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 80px;
+}
+
+/*Colunas*/
+.col-1 {
+  background-color: var(--azul);
+  width: 30%;
+  padding: 30px 0;
+}
+
+.contacts, .soft-skills, .hard-skills {
+  margin: 25px 0;
+  margin-left: 80px;
+  color: var(--branco);
+}
+
+.icons, .link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons, .hab {
+  margin-bottom: 20px;
+}
+
+.ico {
+  width: 25px;
+  height: 25px;
+  margin-top: 2px;
+}
+
+.percentage {
+  display:flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.circle {
+  margin-top: 5px;
+  background-color: var(--branco);
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+}
+
+.circle-opacities {
+  background-color: var(--branco);
+	height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  opacity: 0.75;
+}
+/*Seção: Nome, Cargo, Experiência, Formação*/
+.col-2 {
+  width: 70%;
+}
+
+section {
+  margin: 40px 0;
+  padding: 0 50px;
+}
+
+.topic {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon-profissional {
+  margin-bottom: 20px;
+}
+
+
+/*Nome dos cursos*/
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.6s;
+}
+
+a:hover {
+  color: var(--azul);
+}
+
+.link {
+  color: var(--branco);
+}
+
+.link:hover {
+  color: #e7e7e7;
+}
+
+/*Rodapé*/
+
+footer .footer {
+  color: white;
+  background-color: black;
+  padding: 7px 0;
+  text-align: center;
+}
+
+/*Mobile - responsividade*/
+@media (min-width: 0px) and (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-1, .col-2 {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .contacts, .soft-skills, .hard-skills, .image > img {
+    margin-left: 0;
+  }
+
+  section {
+    margin: 30px 0px 0px;
+    padding: 0;
+  }
+
+   h3 {
+    display: inline-block;
+    padding-bottom: 0;
+   }
+
+  .atual {
+    display: inline-block;
+    margin: 5px 0px 15px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 640px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-1, .col-2 {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .col-1 {
+    text-align: center;
+  }
+
+  .percentage {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+}
+
+  .contacts, .soft-skills, .hard-skills, .image > img {
+    margin-left: 0;
+  }
+
+  .icons, .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+  section {
+    margin: 30px 0px 0px;
+    padding: 0;
+  }
+
+   h3 {
+    display: block;
+    padding-bottom: 0;
+   }
+
+  .atual {
+    display: inline-block;
+    margin: 5px 0px 15px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1440px) {
+  main {
+    display: flex;
+  }
+
+  .col-1 {
+    width: 35%;
+    padding: 20px;
+  }
+
+  .col-2 {
+    width: 70%;
+    padding: 30px;
+  }
+
+  .contacts, .soft-skills, .hard-skills, .image > img {
+    margin-left: 0;
+  }
+
+  section {
+    margin: 30px 0px 0px;
+    padding: 0;
+  }
+
+   h3 {
+    display: block;
+    padding-bottom: 0;
+   }
+
+  .atual {
+    display: inline-block;
+    margin: 5px 0px 15px;
+  }
+}
+
